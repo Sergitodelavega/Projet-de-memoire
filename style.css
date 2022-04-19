@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,600&display=swap');
+
+body {
+    /*background: #76b852; /* fallback for old browsers */
+    /*background: rgb(141,194,111);
+    background: linear-gradient(90deg, rgba(141,194,111,1) 0%, rgba(118,184,82,1) 50%); */
+    font-family: "Montserrat", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;      
+}
+
+.login-page, .register-page{
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+
+.form{
+    position: relative;
+    z-index: 1;
+    background: #ffffff;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form input{
+    font-family: "Montserrat", sans-serif;
+    outline: 0;
+    background: rgba(0,0,0,.05);
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form input:focus{
+    background: rgba(0,0,0,.07);;
+}
+
+.form button{
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4caf50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.form input[placeholder]{
+    padding-left: 50px;
+}
+
+.form button:hover,.form button:active,.form button:focus{
+    background: #43a047;
+}
+
+.form .message{
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+
+.form .message a{
+    color: #4caf50;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.form .heading{
+    margin-bottom: 50px;
+}
+
+.symbol-input100 {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-left: 60px;
+    padding-bottom: 37px;
+    pointer-events: none;
+    color: #4caf50;
+  }
+
+.symbol-input101 {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    padding-left: 15px;
+    top: 233px;
+    pointer-events: none;
+    color: #4caf50;
+}
